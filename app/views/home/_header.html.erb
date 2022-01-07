@@ -19,7 +19,10 @@
               <%= link_to 'Edit Profile', edit_user_registration_path, class: "btn btn-success btn-lg" %>
             </li>
             <li class="nav-item">
-              <%= link_to 'About Us', destroy_user_session_path, method: :delete, class: "btn btn-success btn-lg" %>
+              <%= link_to 'Add Pin', new_pin_path, class: "btn btn-success btn-lg" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'Logout', destroy_user_session_path, method: :delete, class: "btn btn-success btn-lg" %>
             </li>
           <% else %>
             <li class="nav-item">
